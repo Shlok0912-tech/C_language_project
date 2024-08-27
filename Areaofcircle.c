@@ -17,7 +17,7 @@ int main(){
     printf("Enter R\n");
     scanf("%f", &R);
 
-    printf("The area of this circle is %f", 3.14*R*R);
+    printf("The area of this circle is %.2f", 3.14*R*R);
 
     return 0;
 }
